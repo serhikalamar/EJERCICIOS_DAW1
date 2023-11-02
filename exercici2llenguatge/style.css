@@ -1,0 +1,31 @@
+* {
+    font-family:'Arial', Helvetica, serif ;
+    color: blue;
+    background-color: rgb(154, 154, 255);   
+}
+#escuela {
+    display: block;
+}
+img {
+    width: 75%;
+
+
+}
+
+.classe1 {
+    color: green;
+    background-color:#ff80c0 ;
+    display:inline;
+
+}
+
+.classe2 {
+    color: red;
+    background-color: grey;
+}
+
+span p{
+    color: #555;
+
+}
+
