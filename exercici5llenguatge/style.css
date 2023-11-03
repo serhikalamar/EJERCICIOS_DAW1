@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    font-family: Georgia,Cambria,serif;
+    font-size: 16px;
+
+}
+
+h1 {
+    color: #F00;
+    font-family: Verdana,Calibri,sans-serif;
+    font-size: 32px;
+
+}
+
+h2 {
+    color: #A00;
+    font-family: Verdana,Calibri,sans-serif;
+    font-size: 24px;
+
+}
+
+.par {
+    font-style: italic;
+    text-decoration: underline;
+    
+
+}
+
+ul {
+    background-color: grey;
+
+
+}
+
+body {
+    background-image:url(/exercici5llenguatge/obama.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
