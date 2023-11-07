@@ -16,7 +16,7 @@ p {
 
 }
 
-a {
+a[target="_blank"] {
     color: green;
 
 }
@@ -45,7 +45,7 @@ div a:hover {
 }
 
 div a::after{
-    text-decoration: ;
+    content: " \2192";
 
 }
 
