@@ -22,6 +22,7 @@ h2 {
 .par {
     font-style: italic;
     text-decoration: underline;
+    border: 4px solid blue;
     
 
 }
@@ -33,7 +34,7 @@ ul {
 }
 
 body {
-    background-image:url(/exercici5llenguatge/obama.jpeg);
+    background-image:url(obama.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
 
