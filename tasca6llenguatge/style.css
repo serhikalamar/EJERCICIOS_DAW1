@@ -1,4 +1,8 @@
-
+body{
+    background-image: url(peru.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 p {
     background-color: yellow;
@@ -48,4 +52,18 @@ div a::after{
     content: " \2192";
 
 }
+.menu li {
+    background-color:aqua ;
+    display: inline;
 
+}
+
+#contenedor {
+    background-color: blueviolet;
+    display: inline;
+}
+
+h2~p{
+    display: inline;
+    background-color: blue;
+}
