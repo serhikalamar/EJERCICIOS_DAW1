@@ -1,0 +1,91 @@
+* {
+    font-family:'Arial', Helvetica, serif ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#titulo {
+    color: rgb(49, 49, 49);
+    font-size: 100px;
+    
+    
+}
+#escuela {
+    display: block;
+}
+img {
+    width: 75%;
+
+
+}
+
+.classe1 {
+    color: rgb(223, 232, 54);
+    background-color:#ff80c0 ;
+    opacity: 60%;
+    display:block;
+    
+    
+
+}
+.classe2 a{
+    color: red;
+    background-color: grey;
+    display: block;
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    outline: 2px solid black;
+    outline-offset: 3px;
+    size: 20px;
+}
+
+.classe2 a:hover{
+    color: rgb(157, 255, 0);
+    display: block;
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    outline: 2px solid black;
+    outline-offset: 3px;
+    size: 20px;
+}
+
+span p{
+    color: #000000;
+
+}
+span a{
+    color: beige;
+}
+span a:hover{
+    color: rgb(0, 255, 34);
+}
+.navegacion li{
+    text-align: left;
+    font-family:Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    background-color: bisque;
+    display: inline;
+    
+}
+
+.navegacion:hover li{
+    color: #ff80c0;
+    background-color: rgb(162, 229, 229);
+    text-align: left;
+    
+    
+}
+
+img {
+    outline: 2px solid black;
+    outline-offset: 3px;
+}
+body {
+    background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
+    
+}
