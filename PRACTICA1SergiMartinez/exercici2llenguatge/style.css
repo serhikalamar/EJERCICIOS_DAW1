@@ -15,15 +15,21 @@ a {
 #escuela {
     display: block;
 }
+#escuela:hover {
+    display: block;
+    color: white;
+}
 img {
     width: 75%;
-
-
+    outline: 2px solid black;
+    outline-offset: 3px;
 }
 
+
+
 .classe1 {
-    color: rgb(223, 232, 54);
-    background-color:#ff80c0 ;
+    color: black;
+    background-color:#8d80ff ;
     opacity: 60%;
     display:block;
     
@@ -71,7 +77,7 @@ span a:hover{
     font-family:Helvetica, sans-serif;
     font-style: italic;
     font-size: 20px;
-    background-color: bisque;
+    background-color: #8d80ff;
     display: block;
     
 }
@@ -84,10 +90,7 @@ span a:hover{
     
 }
 
-img {
-    outline: 2px solid black;
-    outline-offset: 3px;
-}
+
 body {
     background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
     
