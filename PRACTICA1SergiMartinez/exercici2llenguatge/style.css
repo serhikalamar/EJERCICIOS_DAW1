@@ -1,19 +1,50 @@
+
 * {
     font-family:'Arial', Helvetica, serif ;
     color: rgb(0, 0, 0);
     text-align: center;
 }
-a {
+
+/*SOLO GENERAL LA TIPOGRAFIA Y COLOR BASE DE ELLA */
+.navegacion {
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    background-color: #8d80ff;
+    display: inline;
     text-decoration: none;
+    
 }
+
+.navegacion:hover {
+    color: #8d80ff;
+    background-color: white;
+    text-align: center;
+    outline: 2px solid #8d80ff;
+    
+}
+
+
+
 #titulo {
     color: rgb(49, 49, 49);
     font-size: 100px;
     
-    
+}
+
+
+.parrafo {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    text-align:center;
+
 }
 #escuela {
     display: block;
+    border: ;
+    text-decoration:double;
+    font-size: 23px;
 }
 #escuela:hover {
     display: block;
@@ -23,6 +54,7 @@ img {
     width: 75%;
     outline: 2px solid black;
     outline-offset: 3px;
+    
 }
 
 
@@ -37,24 +69,21 @@ img {
 
 }
 .classe2 a{
-    color: red;
-    background-color: grey;
+    text-decoration: none;
     display: block;
     width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
     margin-left: 50%;
     transform: translateX(-50%);
-    outline: 2px solid black;
     outline-offset: 3px;
-    size: 20px;
+    size: 40px;
 }
 
 .classe2 a:hover{
-    color: rgb(157, 255, 0);
+    color: #8d80ff;
     display: block;
     width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
     margin-left: 50%;
     transform: translateX(-50%);
-    outline: 2px solid black;
     outline-offset: 3px;
     size: 20px;
 }
@@ -72,26 +101,12 @@ span a:hover{
 #lista{
     text-align: center;
 }
-.navegacion {
-    text-align: center;
-    font-family:Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    background-color: #8d80ff;
-    display: block;
-    
-}
 
-.navegacion:hover {
-    color: #ff80c0;
-    background-color: rgb(162, 229, 229);
-   
-    
-    
-}
 
 
 body {
-    background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
+   /* background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);*/
+   background-color:#bbb6b6 ;
     
 }
+
