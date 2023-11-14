@@ -2,7 +2,7 @@
 * {
     font-family:'Arial', Helvetica, serif ;
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: ;
 }
 
 /*SOLO GENERAL LA TIPOGRAFIA Y COLOR BASE DE ELLA */
@@ -26,10 +26,10 @@
 }
 
 
-
 #titulo {
     color: rgb(49, 49, 49);
     font-size: 100px;
+    text-align:center;
     
 }
 
@@ -52,8 +52,10 @@
 }
 img {
     width: 75%;
+    right: 25%;
     outline: 2px solid black;
     outline-offset: 3px;
+    
     
 }
 
@@ -63,8 +65,8 @@ img {
     color: black;
     background-color:#8d80ff ;
     opacity: 60%;
-    dis play:block;
-    
+    display:block;
+    text-align: center;
     
 
 }
@@ -86,7 +88,6 @@ span a:hover{
 
 
 body {
-   /* background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);*/
    background-color:#bbb6b6 ;
     
 }
