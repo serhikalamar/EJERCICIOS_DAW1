@@ -63,29 +63,10 @@ img {
     color: black;
     background-color:#8d80ff ;
     opacity: 60%;
-    display:block;
+    dis play:block;
     
     
 
-}
-.classe2 a{
-    text-decoration: none;
-    display: block;
-    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
-    margin-left: 50%;
-    transform: translateX(-50%);
-    outline-offset: 3px;
-    size: 40px;
-}
-
-.classe2 a:hover{
-    color: #8d80ff;
-    display: block;
-    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
-    margin-left: 50%;
-    transform: translateX(-50%);
-    outline-offset: 3px;
-    size: 20px;
 }
 
 span p{
