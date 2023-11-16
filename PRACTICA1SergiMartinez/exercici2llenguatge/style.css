@@ -26,10 +26,11 @@
 }
 
 
-#titulo {
+.titulo{
+    text-align: center;
     color: rgb(49, 49, 49);
     font-size: 100px;
-    text-align:center;
+    
     
 }
 
@@ -42,15 +43,21 @@
 }
 #escuela {
     display: block;
-    border: ;
+    border: 1px solid beige  ;
     text-decoration:double;
     font-size: 23px;
+    text-align: center;
 }
 #escuela:hover {
     display: block;
     color: white;
 }
-img {
+.general {
+    text-align: center;
+}
+
+#imagen {
+    
     width: 75%;
     right: 25%;
     outline: 2px solid black;
@@ -90,5 +97,9 @@ span a:hover{
 body {
    background-color:#bbb6b6 ;
     
+}
+
+footer{
+    text-align: center;
 }
 
