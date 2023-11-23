@@ -1,5 +1,22 @@
-body {
-    max-width: 800px;
-    font-family: Helvetica,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+* {
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
+
+body {
+    background-color:#2C2F40 ;
+    font-family: ;
+}
+
+.caja1 {
+    background-color:#BFBFAA ;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.titulos { 
+    padding: auto; 
+    
+} 
