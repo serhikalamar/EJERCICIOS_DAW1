@@ -35,8 +35,20 @@ body {
     display: flex;
     width: 600px;
     height: 300px;
+<<<<<<< Updated upstream
 
+=======
+    
+>>>>>>> Stashed changes
 }
+.caja3 {
+    display: flex;
+    background-color:#593528;
+    flex-flow: row-reverse;
+    justify-content: center;
+    
+}
+
 .titulos { 
     padding: auto; 
     font-size: 50px;
@@ -48,4 +60,8 @@ body {
     height:600px;
     border-radius:320px;
     border:10px solid #666;
+}
+footer {
+    background-color:#593528 ;
+    width: 500px;
 }
