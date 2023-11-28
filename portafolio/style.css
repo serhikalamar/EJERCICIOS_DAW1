@@ -18,11 +18,16 @@ body {
     
 }
 
+.caja1 h1 {
+
+}
+
 .caja2 {
     background-color: #73555C;
     display: flex;
     width: 600px;
     height: 300px;
+
 }
 .titulos { 
     padding: auto; 
