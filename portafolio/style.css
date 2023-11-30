@@ -79,13 +79,16 @@ article {
     
 } 
 
-.img {
+.caja4{
     display: flex;
     justify-content: center;
-    width: 500px; 
-    
-    
+	align-items: center;
+	justify-content: space-around;
 }
+.caja4 img {
+	width: 500px;
+}
+
 footer {
     background-color:#593528 ;
     
@@ -123,7 +126,7 @@ body {
 }
 
 .wrapper {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
