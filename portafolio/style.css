@@ -5,26 +5,43 @@
     font-weight:lighter;
 }
 
+@media screen and ((min-width: 1080px) and (max-width: 1920px)) {
+	
+} 
+@media screen and ((min-width: 400px) and (max-width: 700px)) {
+	* {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+
+
+} 
 
 * {
     margin-left: 70px;
     margin-right: 70px;
+	font-family: Calibri, calisto, Century Gothic, Didot;
 }
 
 
 body {
     background-color:#2C2F40 ;
-    font-family:;
+    
 }
 
 .caja1 {
     background-color:#BFBFAA ;
     display: flex;
     flex-direction: row-reverse;
+	flex-wrap: nowrap;
     padding:7px;
     align-items: center;
     font-size: 30px;
     
+}
+.caja1:last-child{
+	flex: 2;
 }
 #img {
     width:300px;
