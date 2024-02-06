@@ -1,0 +1,69 @@
+@import url(style2.css);
+.body {
+    background-color: white;
+    
+}
+
+.button {
+	align-items: center;
+	background:#7f8c8d;
+	color:#000000;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+
+.button span {
+	margin-right:10px;
+}
+
+/*Colores*/
+.button.blue {
+	background:#555656;
+	box-shadow:0px 3px 0px #000000;
+}
+
+.button.yellow {
+	background:#e67e22;
+	box-shadow:0px 3px 0px #b55704;
+}
+
+
+/*Tamaños*/
+.button.medium {
+	width:350px;
+}
+
+
+.button.large {
+	width:450px;
+}
+
+
+.button.radius {
+	border-radius:50px;
+}
+
+/*Efectos, Hover*/
+.button:hover {
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+}
+
+.dark-mode {
+    background-color: #333333; /* Tema oscuro */
+    color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Tema claro */
+    color: #333333;
+}

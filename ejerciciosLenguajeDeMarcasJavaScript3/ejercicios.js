@@ -1,9 +1,19 @@
+// Seleccionar el botón de cambio de tema
+var toggleThemeButton = document.getElementById('toggle-theme-btn');
+
+// Añadir un evento de clic al botón
+toggleThemeButton.addEventListener('click', function() {
+  // Alternar la clase 'dark-mode' en el elemento body
+  document.body.classList.toggle('dark-mode');
+});
+
 
 function ejercicio (){
     let numero = 0 ;
 
     while(numero <= 10 ){
         console.log(numero);
+        alert(numero);
         numero++
     }
 }
@@ -14,7 +24,7 @@ function ejercicio2 (){
     numero1 = prompt();
     numero2 = prompt();
 
-    numero1 = numero1 > numero2 ? console.log(numero1): console.log(numero2);
+    alert(numero1 = numero1 > numero2 ? numero1 : numero2);
 }
 function ejercicio3 () {
     let numero1 , numero2 ;
@@ -119,4 +129,12 @@ function ejercicio10(){
     console.log(persona);
     document.write(persona);
 
+}
+function cambiocolor(){
+    var boton = document.getElementById("cambiocolor");
+    
+    toggleThemeButton.addEventListener('click', function() {
+        // Alternar la clase 'dark-mode' en el elemento body
+        document.body.classList.toggle('dark-mode');
+      });
 }
