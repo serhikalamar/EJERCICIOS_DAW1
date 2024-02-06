@@ -29,25 +29,17 @@ function ejercicio2 (){
 function ejercicio3 () {
     let numero1 , numero2 ;
 
-    console.log("Escribe dos numeros para sumarlos entre ellos");
-
-    numero1 = parseInt(prompt());
-    numero2 = parseInt(prompt());
-    console.log("La suma de los dos numeros es" +(numero1 + numero2));
-
+    numero1 = parseInt(prompt("Escribe dos numeros para sumarlos entre ellos"));
+    numero2 = parseInt(prompt("otro mas"));
+    alert("La suma de los dos numeros es " +(numero1 + numero2));
 
 }
 function ejercicio4() {
     let nom, edat, estatura, estatcivil;
-
-    console.log("Escribe tu nombre");
-    nom = prompt();
-    console.log("Escribe tu edad");
-    edat = promt();
-    console.log("Escribe tu estatura");
-    estatura = prompt();
-    console.log("Escribe tu estado civil");
-    estatcivil = prompt();
+    nom = prompt("Escribe tu nombre");
+    edat = promt("Escribe tu edad");
+    estatura = prompt("Escribe tu estatura");
+    estatcivil = prompt("Escribe tu estado civil");
 
     if(estatcivil == "soltero" || estatcivil == "Soltero"){
         console.log(nom);
@@ -55,9 +47,9 @@ function ejercicio4() {
         console.log(estatura);
         console.log(estatcivil);
     }if (estatcivil == "casado" || estatcivil == "Casado"){
-        conosle.log("" + nom + edat + estatura + estatcivil);
+        alert("" + nom + edat + estatura + estatcivil);
     }else {
-        console.log("error vuelve a escribir todo")
+        alert("error vuelve a escribir todo")
         ejercicio4();
     }
 }
@@ -138,3 +130,25 @@ function cambiocolor(){
         document.body.classList.toggle('dark-mode');
       });
 }
+function Ej3_4(){
+    let marca = document.getElementById("opciones").value;
+    let precio = document.getElementById("precio").value;
+  
+    if (isNaN(precio)) {
+      alert("Por favor, ingrese un precio válido.");
+      return;
+    }
+  
+    if(marca == "Ford"){
+      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((10/100)*precio));
+    }
+    else if(marca == "Seat"){
+      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((8/100)*precio));
+    }
+    else if(marca == "Citroen"){
+      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((6/100)*precio));
+    }
+    else if(marca == "Audi"){
+      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((4/100)*precio));
+    }
+  }
