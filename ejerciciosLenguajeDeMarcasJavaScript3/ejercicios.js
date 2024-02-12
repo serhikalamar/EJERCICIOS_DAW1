@@ -56,15 +56,15 @@ function ejercicio4() {
 function ejercicio5(){
     let palabra;
 
-    console.log("Escribe una palabra")
-    palabra = prompt();
-    console.log("La palabra tiene" + palabra.length + "caracteres");
+    
+    palabra = prompt("Escribe una palabra");
+    alert("La palabra tiene " + palabra.length + " caracteres");
 }
 
 function ejercicio6(){
-    let array = ["Enero","Febrero", "Marzo", "Abril" ,"Mayo", "Junio" , "Julio","Agosto", "Septiembre", "Octubre", "Noiembre", "Diciembre"]
+    let array = ["Enero","Febrero", "Marzo", "Abril" ,"Mayo", "Junio" , "Julio","Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
     for(let i = 0; i < array.length ; i++){
-        console.log(array[i]);
+        alert(array[i]);
     }
 
 }
@@ -95,14 +95,14 @@ function ejercicio7(){
 function ejercicio8(){
     let numero;
 
-    console.log("escribe un numero");
-    numero = prompt();
+    
+    numero = prompt("escribe un numero");
     if(numero % 2 == 0){
-        console.log("es un nombre parell");
+        alert("es un nombre parell");
     }else {
-        console.log("Es un nombre imparell");
+        alert("Es un nombre imparell");
     }
-    ejercicio8();
+    
 }
 function ejercicio9 (){
     var texto;
@@ -140,15 +140,40 @@ function Ej3_4(){
     }
   
     if(marca == "Ford"){
-      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((10/100)*precio));
+      alert("El precio final de su coche"+ marca + "es de: "+ (precio - ((10/100)*precio)));
     }
     else if(marca == "Seat"){
-      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((8/100)*precio));
+      alert("El precio final de su coche"+ marca + "es de: "+ (precio - ((8/100)*precio)));
     }
     else if(marca == "Citroen"){
-      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((6/100)*precio));
+      alert("El precio final de su coche"+ marca + "es de: "+ (precio - ((6/100)*precio)));
     }
     else if(marca == "Audi"){
-      alert("El precio final de su coche"+ marca + "es de: "+ precio - ((4/100)*precio));
+      alert("El precio final de su coche"+ marca + "es de: "+ (precio - ((4/100)*precio)));
     }
-  }
+}
+
+function adivinaNumero(){
+    var random = Math.floor(Math.random() * 100 + 1);
+    var intentos = 0;
+    var numero = prompt("Adivina el numero!!!! Escribe el primero")
+    while(!(numero == random) ){
+        if (numero < random) {
+            alert("El numero random es mayor");
+        }else {
+            alert("El numero random es mas pequeño")
+        }
+        intentos++;
+        if(intentos == 3){
+            alert("YA NO TIENES MAS INTENTOS, EL NUMERO QUE INTENTABAS ADIVINAR ES EL: " + random);
+            break
+        }
+        numero = prompt("vuelve a escribir otro numero, intentos: " + intentos + " (Max:3)");
+
+    }
+    if(numero == random){
+        alert("ENHORABUENAAAAA EL NUMERO RANDOM ES: " + RANDOM);
+    }
+}
+
+ 
