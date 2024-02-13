@@ -176,4 +176,13 @@ function adivinaNumero(){
     }
 }
 
- 
+function extensionParrafo(){
+    document.write(<p id="segunda">
+    "El router es el dispositivo que nos permite conectarnos y navegar por Internet.
+    Configurarlo de manera correcta evitará nuestra privacidad y seguridad», explican desde
+    INCIBE a este respecto. De acuerdo con la institución, lo primero que debemos hacer
+    cuando adquirimos un router nuevo es revisar su configuración para comprobar si es
+    suficientemente segura. Para ello debemos coger la dirección IP del dispositivo y ponerla
+    en el navegador que queramos, ya sea Chrome, Safari o cualquier otro.."
+</p>);
+}
