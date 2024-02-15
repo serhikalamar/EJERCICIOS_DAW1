@@ -186,3 +186,20 @@ function extensionParrafo(){
     en el navegador que queramos, ya sea Chrome, Safari o cualquier otro.."
 </p>);
 }
+
+function ex3(n){
+    let numero = parseInt(document.getElementById("numeroABorrar").value);
+    let array = [1 , 2, 3 , 4, 5, 6 , 7 , 9 , 0];
+    for(var i = 0; i < array.length(); i++ ){
+        if(array [i] == numero){
+            delete array [i];
+        }
+    }
+    alert("Número borrado con éxito <3");
+}
+
+function texoOculto(){
+    var segunda = getElementById("segunda");
+    segunda.diplay.block = "block";
+}
+

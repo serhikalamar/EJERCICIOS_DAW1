@@ -6,6 +6,7 @@
 h1 {
 	text-align: center;
 }
+/*INICIO BOTON NIGER GOD*/
 .button {
 	background:#7f8c8d;
 	color:#000000;
@@ -56,6 +57,7 @@ h1 {
 	padding-top:7px;
 }
 
+/*FIN BOTON NEGRITO NIGGER GOD*/
 .dark-mode {
     background-color: #333333; /* Tema oscuro */
     color: #ffffff;
@@ -67,4 +69,8 @@ h1 {
     padding: 20px;
     background-color: #ffffff; /* Tema claro */
     color: #333333;
+}
+
+#segunda {
+	display: none;
 }
