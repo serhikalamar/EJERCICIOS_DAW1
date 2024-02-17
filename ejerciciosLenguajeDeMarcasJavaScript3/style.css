@@ -1,11 +1,22 @@
 @import url(style2.css);
+@import url(font.css);
 .body {
-    background-color: white;
-    
+    background-color: rgb(255, 255, 255);
+
 }
 h1 {
 	text-align: center;
 }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 /*INICIO BOTON NIGER GOD*/
 .button {
 	background:#7f8c8d;
