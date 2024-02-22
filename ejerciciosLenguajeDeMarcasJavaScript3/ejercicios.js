@@ -144,7 +144,7 @@ function Ej3_4(){
     }
     else if(marca == "Seat"){
       alert("El precio final de su coche"+ marca + "es de: "+ (precio - ((8/100)*precio)));
-    }
+    } 
     else if(marca == "Citroen"){
       alert("El precio final de su coche"+ marca + "es de: "+ (precio - ((6/100)*precio)));
     }
@@ -200,6 +200,15 @@ function ex3(n){
 
 function texoOculto(){
     var segunda = getElementById("segunda");
-    segunda.diplay.block = "block";
+    segunda.display.block = "block";
 }
 
+function dado(){
+    //Hacer un dado que dando click cambia la cara del dado
+    var dado = parseInt(math.random()* 6) + 1;
+
+}
+
+document.getElementById("openPageButton").addEventListener("click", function() {
+    window.location.href = "dado.html";
+  });
