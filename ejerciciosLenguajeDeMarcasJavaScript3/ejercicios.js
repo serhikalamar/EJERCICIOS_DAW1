@@ -107,8 +107,7 @@ function ejercicio8(){
 function ejercicio9 (){
     var texto;
     var cadena = "";
-    console.log("Escribe una cadena de texto");
-    texto = prompt();
+    texto = prompt("Escribe una cadena de texto");
 
     for(var i = texto.length - 1 ; i >= 0 ; i--){
         cadena += texto[i];
@@ -177,14 +176,10 @@ function adivinaNumero(){
 }
 
 function extensionParrafo(){
-    document.write(<p id="segunda">
-    "El router es el dispositivo que nos permite conectarnos y navegar por Internet.
-    Configurarlo de manera correcta evitará nuestra privacidad y seguridad», explican desde
-    INCIBE a este respecto. De acuerdo con la institución, lo primero que debemos hacer
-    cuando adquirimos un router nuevo es revisar su configuración para comprobar si es
-    suficientemente segura. Para ello debemos coger la dirección IP del dispositivo y ponerla
-    en el navegador que queramos, ya sea Chrome, Safari o cualquier otro.."
-</p>);
+   var segundo = document.getElementById("segunda");
+   segundo.style.display = "block";
+
+
 }
 
 function ex3(n){
