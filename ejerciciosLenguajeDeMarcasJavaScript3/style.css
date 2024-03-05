@@ -63,14 +63,35 @@ h1 {
 	justify-content: center;
 	font-size: 3rem;
 }
-h1:hover {
-	display: flex;
-	justify-content: center;
-	font-size: 3rem;
-	color: red;
+
+.enunciados {
+	color: indianred;
+	font-family:Helvetica;
+	font-size: 1rem;
 }
+button {
+	background-color: #a4a0a0; /* Color de fondo gris para los botones */
+	border: none; /* Sin bordes */
+	padding: 10px 20px; /* Espaciado interno */
+	border-radius: 10px; /* Bordes redondos */
+	margin: 5px; /* Espaciado entre botones */
+	cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+button:active::after {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	border-radius: 10px; /* Bordes redondos */
+	background-color: rgba(0, 0, 0, 0.1); /* Color de sombra */
+	z-index: -1; /* Para que la sombra esté detrás del botón */
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
 
-
+}
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -128,7 +149,7 @@ h1:hover {
 /*Efectos, Hover*/
 .button:hover {
 	box-shadow:0px 0px 0px;
-	padding-top:7px;
+	padding-top:4px;
 }
 
 /*FIN BOTON NEGRITO NIGGER GOD*/

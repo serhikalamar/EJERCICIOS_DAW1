@@ -1,12 +1,20 @@
-// Seleccionar el botón de cambio de tema
+// cambio de tema de claro a oscuro y viceversa y cambiar el texto del boton
 var toggleThemeButton = document.getElementById('toggle-theme-btn');
 
-// Añadir un evento de clic al botón
-toggleThemeButton.addEventListener('click', function() {
-  // Alternar la clase 'dark-mode' en el elemento body
-  document.body.classList.toggle('dark-mode');
-});
 
+toggleThemeButton.addEventListener('click', function() {
+  
+    document.body.classList.toggle('dark-mode');
+   
+    var isDarkMode = document.body.classList.contains('dark-mode');
+    
+
+    if (isDarkMode) {
+        toggleThemeButton.textContent = 'Tema claro';
+    } else {
+        toggleThemeButton.textContent = 'Tema oscuro';
+    }
+});
 
 function ejercicio (){
     let numero = 0 ;
