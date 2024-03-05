@@ -1,19 +1,56 @@
 @import url(style2.css);
 @import url(font.css);
 
-@media only screen and (max-width: 414px) {
-    
-    body {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para el encabezado */
+    header {
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    .button {
+        padding: 10px 20px;
+    }
+    /* Estilos para los botones en el main */
+    main button {
+        margin: 5px;
+        padding: 10px 20px;
+    }
+    main p {
         font-size: 14px;
     }
+	.responsive-img {
+		max-width: 80%; /* Ajusta el ancho máximo de la imagen para iPad */
+		height: auto; /* Permite que la altura se ajuste automáticamente */
+	  }
 
 }
-@media only screen and (max-width: 768px) {
-    
-    body {
-        font-size: 16px;
-    }
 
+/* Estilos para dispositivos móviles (tamaño de pantalla similar a iPhone X) */
+@media only screen and (max-width: 375px) {
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+    .button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    main button {
+        margin: 3px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    main p {
+        font-size: 12px;
+    }
+	.responsive-img {
+		max-width: 90%; /* Ajusta el ancho máximo de la imagen para iPhone X */
+		height: auto; /* Permite que la altura se ajuste automáticamente */
+	  }
 }
 
 body {
@@ -25,6 +62,12 @@ h1 {
 	display: flex;
 	justify-content: center;
 	font-size: 3rem;
+}
+h1:hover {
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	color: red;
 }
 
 
@@ -104,4 +147,11 @@ h1 {
 
 #segunda {
 	display: none;
+}
+
+#joanfeo {
+	width:25% ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

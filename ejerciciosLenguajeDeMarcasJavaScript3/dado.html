@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="dado.css">
 </head>
 <body>
+  <a href="index.html">Inicio</a>
+  <div class="container">
     <header>
         <h1>DADO</h1>
         
     </header>
-    <main>
-        <button onclick="dado()" id="cambiarNumero">Lanzar dado</button>
+    <main class="container">
+        <button onclick="dado()" id="cambiarNumero" class="dadete">Lanzar dado</button>
         <div class="dice">
             <div class="face front" id="face front">1</div>
         </div>
+        <!--
         <div class="dice">
             <div class="dice-face one">
               <div class="square"></div>
@@ -57,11 +60,13 @@
               <div class="circle"></div>
             </div>
         </div>
+        -->
     </main>
     <footer>
         <h2>Sergi Martinez</h2>
         <h3>DAW 1</h3>
     </footer>
+  </div>
     <script src="dado.js"></script>
 </body>
 </html>
