@@ -1,8 +1,27 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <ciutats>
     <ciutat Continent="asia">
-        <nom></nom>
-        <pais></pais>
+        <nom>Nova Delhi</nom>
+        <pais>India</pais>
     </ciutat>
-
+    <ciutat Continent="Europa">
+        <nom>Nova Delhi</nom>
+        <pais>India</pais>
+    </ciutat>
+    <ciutat Continent="Africa">
+        <nom>El cairo</nom>
+        <pais>Africa</pais>
+    </ciutat>
 </ciutats>
+<!--ex2-->
+<historics>
+    <fet>
+        <descripcio></descripcio>
+        <data>
+            <dia></dia>
+            <mes></mes>
+            <any></any>
+        </data>
+    </fet>
+</historics>
+<!-- ex 3 -->
